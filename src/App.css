@@ -9,7 +9,8 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
+    /* comportamento da imagem */
   }
 }
 
@@ -22,6 +23,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  flex-direction: row;
+  gap: 15px; 
+  /* espaçamento da imagem */
 }
 
 .App-link {
