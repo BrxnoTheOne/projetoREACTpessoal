@@ -1,29 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import fessor from './fotojordan.jpg'
-import Card from './Card'
+
+import Header from './components/Header';
+import Footer from './components/Header/Footer';
 
 function App() {
   return (
-    <div className="exemplo">
-      <header>
-        <h1>title</h1>
-        <nav>
 
-       <a>exemplo1</a>
-       <a>exemplo2</a>
-
-        </nav>
-      </header>
-      
-        <Card />
-     
-        <Card />
-      
-        <Card />
-      </div>
-
-      );
+    <>
+    <Header />
+    <h1>Hello world !</h1>
+    <p>O melhor site para assistir seus filmes preferidos !</p>
+    <Footer />
+    </>
+  );
 }
 
-      export default App;
+export default App;
