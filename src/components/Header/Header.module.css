@@ -5,27 +5,24 @@
     border-bottom: 2px solid #f44336;
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
+    height: 68px;
     display: flex;
-    padding: 0.5rem;
+    padding-block: 0.75rem;
     font-size: 1.5rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* titulo */
 .header span {
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #b71c1c;
 }
 
-/* opçoes home & assistir */
-.header nav {
 
-    margin-right: 20px;
-}
 
 /* links das paginas */
 .header a {
