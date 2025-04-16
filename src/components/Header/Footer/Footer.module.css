@@ -1,7 +1,7 @@
 .footer {
 
     position: absolute;
-    bottom: 0; 
+    /* bottom: 0;   apagado tambem porque o position: absolute ja deixa todo o footer abaixo do conteudo que esta acima dele  */
     width: 100%;
     display: flex;
     align-items: center;
