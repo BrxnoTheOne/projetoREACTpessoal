@@ -1,8 +1,8 @@
 .banner{
 
-    width: 100%; /*1920 x 347 */
+    width: 100%; /*1920 x 347 */ /*100% pra efeito de imagem responsiva*/
     height: 347px;
-    background-image: url('./banner-home.png');
+    /* background-image: url('./banner-home.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

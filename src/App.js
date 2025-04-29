@@ -9,7 +9,7 @@ function App() {
 
     <>
     <Header /> {/*as outras tags funcionam como tag de abertura e fechamento porque elas não passam parametros(PROPS) para funçoes */}
-    <Banner />
+    <Banner image="banner" /> 
      <Container >  {/* tudo dentro desse container são os "filhos"(children no modulo container) */}
     <h1>Hello world !</h1>
     <p>O melhor site para assistir seus filmes preferidos !</p>
